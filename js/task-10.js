@@ -29,7 +29,7 @@ function createBoxes(amount) {
     markupOfDivs.push(
       `<div style="width: ${divSize}px; height:  ${divSize}px; background-color:  ${getRandomHexColor()};"></div>`
     );
-    divSize += 30;
+    divSize += 10;
   }
   divOfBoxes.innerHTML = markupOfDivs.join("");
 }
